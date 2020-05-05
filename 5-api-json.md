@@ -54,10 +54,12 @@ q=art
 api-key=H1YLGdft6YZwC9ehHEbgFf2t2FRjMQxF
 ```
 
-## Discover Your Own
+![](https://dummyimage.com/3000x1000/ffffff/000000.jpg&text=+)
+
+### Add some to this list:
 
 - [datos.gob.es](https://datos.gob.es/)
 - [developers.idealista.com](https://developers.idealista.com/)
 - [Google Places](https://developers.google.com/places/web-service/intro)
 
-Others can be found on: https://github.com/public-apis/public-apis
+Some can be found on: https://github.com/public-apis/public-apis
