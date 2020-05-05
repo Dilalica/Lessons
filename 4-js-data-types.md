@@ -1,8 +1,8 @@
-# JS Data Types
+![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=JS+DATA+TYPES)
 
-![](https://dummyimage.com/600x400/eeccdd/ffffff.jpg&text=Primitives)
+## Primitives
 
-## `Numbers`
+#### Numbers
 
 ```js
 0
@@ -12,23 +12,22 @@
 0.00000001
 ```
 
-
-## `Strings`
+#### Strings
 
 ```js
 "Hola"
 'Tod*s'
-`¿Como estamos?`
+`¿Como estamos?
 ```
 
-## `Booleans`
+#### Booleans
 
 ```js
 true
 false
 ```
 
-## `Undefined`
+#### Undefined
 
 ```js
 undefined
@@ -38,9 +37,9 @@ NaN
 
 ***
 
-![](https://dummyimage.com/600x400/eeccdd/ffffff.jpg&text=Arrays+and+Objects)
+## Complex Data Types
 
-## `Arrays`
+#### Arrays
 
 _An ordered list of items_
 
@@ -50,7 +49,7 @@ _An ordered list of items_
 [[], [], []]
 ```
 
-## `Objects`
+#### Objects
 
 _A set of key value pairs_
 
@@ -67,7 +66,9 @@ _A set of key value pairs_
 }
 ```
 
-## `Putting it all Together`
+***
+
+## Putting it all Together
 
 ```js
 [
