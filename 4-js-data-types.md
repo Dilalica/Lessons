@@ -33,7 +33,7 @@ null
 NaN
 ```
 
-![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=+)
+![](https://dummyimage.com/3000x1000/ffffff/000000.jpg&text=+)
 
 #### Arrays
 
