@@ -1,6 +1,6 @@
 ![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=+++++++++JS+DATA+TYPES+++++++++)
 
-#### Numbers
+### Numbers
 
 ```js
 0
@@ -10,7 +10,7 @@
 0.00000001
 ```
 
-#### Strings
+### Strings
 
 ```js
 "Hola"
@@ -18,14 +18,14 @@
 `¿Como estamos?`
 ```
 
-#### Booleans
+### Booleans
 
 ```js
 true
 false
 ```
 
-#### Undefined
+### Undefined
 
 ```js
 undefined
@@ -35,7 +35,7 @@ NaN
 
 ![](https://dummyimage.com/3000x1000/ffffff/000000.jpg&text=+)
 
-#### Arrays
+### Arrays
 
 _An ordered list of items_
 
@@ -45,7 +45,7 @@ _An ordered list of items_
 [[], [], []]
 ```
 
-#### Objects
+### Objects
 
 _A set of key value pairs_
 
@@ -64,7 +64,7 @@ _A set of key value pairs_
 
 ![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=++++++++++++++JSON++++++++++++++)
 
-#### _Putting it all Together_
+### _Putting it all Together_
 
 ```js
 [
