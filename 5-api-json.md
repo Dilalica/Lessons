@@ -11,9 +11,7 @@ https://en.wikipedia.org
 /api/rest_v1/page/summary/Hello
 ```
 
-### Open Weather
-
-[openweathermap.org](https://openweathermap.org/)
+### [openweathermap.org](https://openweathermap.org/)
 
 http://api.openweathermap.org/data/2.5/weather?q=Barcelona&APPID=f4733ffb6395ff65066ef6800f002dc2
 
@@ -26,9 +24,7 @@ q=Barcelona
 APPID=f4733ffb6395ff65066ef6800f002dc2
 ```
 
-### NASA
-
-[api.nasa.gov](https://api.nasa.gov/)
+### [api.nasa.gov](https://api.nasa.gov/)
 
 https://api.nasa.gov/neo/rest/v1/feed?start_date=2020-05-01&end_date=2020-05-01&detailed=true&api_key=e49aUmmYyssoot72jpWzxUrJsVqn4EJC1rlALBrY
 
@@ -45,9 +41,7 @@ detailed=true
 api_key=e49aUmmYyssoot72jpWzxUrJsVqn4EJC1rlALBrY
 ```
 
-### NY Times
-
-[developer.nytimes.com](https://developer.nytimes.com/)
+### [developer.nytimes.com](https://developer.nytimes.com/)
 
 https://api.nytimes.com/svc/search/v2/articlesearch.json?q=art&api-key=H1YLGdft6YZwC9ehHEbgFf2t2FRjMQxF
 
@@ -60,7 +54,7 @@ q=art
 api-key=H1YLGdft6YZwC9ehHEbgFf2t2FRjMQxF
 ```
 
-![](https://dummyimage.com/3000x1000/ffffff/000000.jpg&text=+)
+## Discover Your Own
 
 - [datos.gob.es](https://datos.gob.es/)
 - [developers.idealista.com](https://developers.idealista.com/)
