@@ -15,7 +15,7 @@
 <!-- a comment -->
 ```
 
-## Some attributes:
+### Some attributes:
 
 - href
 - src
@@ -25,7 +25,7 @@
 - value
 - placeholder, title, data-
 
-## Self Closing Tags
+### Self Closing Tags
 
 ```html
 <br />
@@ -35,7 +35,7 @@
 <link />
 ```
 
-## A Typical Heading
+### A Typical Heading
 
 ```html
 <head>
