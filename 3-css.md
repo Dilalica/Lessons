@@ -1,4 +1,4 @@
-# CSS
+![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=++++++++++++++CSS++++++++++++++)
 
 Inline, Page, External
 

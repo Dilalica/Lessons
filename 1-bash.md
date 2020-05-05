@@ -1,4 +1,4 @@
-# Bash
+![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=++++++++++++++BASH++++++++++++++)
 
 Some commands in the terminal:
 

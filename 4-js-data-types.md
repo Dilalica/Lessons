@@ -1,7 +1,5 @@
 ![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=+++++++++JS+DATA+TYPES+++++++++)
 
-## Primitives
-
 #### Numbers
 
 ```js
@@ -35,9 +33,7 @@ null
 NaN
 ```
 
-***
-
-## Complex Data Types
+![](https://dummyimage.com/3000x2000/ffffff.jpg)
 
 #### Arrays
 
@@ -66,9 +62,9 @@ _A set of key value pairs_
 }
 ```
 
-***
+![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=++++++++++++++JSON++++++++++++++)
 
-## Putting it all Together
+#### _Putting it all Together_
 
 ```js
 [
