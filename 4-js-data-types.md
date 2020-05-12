@@ -72,16 +72,37 @@ _A set of key value pairs_
         first: 'Fulanito',
         last: 'Perez',
         address: {
-            street: 
-            number: 
+            street: 'Trafalgar'
+            number: 53
         },
-        children: [],
-        isNice: true
+        children: [], // no tiene
+        simpatico: true
     },
     {
-
+        first: 'Jimena',
+        last: 'Gonzalez',
+        address: {
+            street: 'Paseo de la Castellana'
+            number: 2
+        },
+        children: [
+            'Maria'
+            'Jorge',
+        ],
+        simpatico: true
     },
     {
-
+        first: 'Pepito',
+        last: 'Suarez',
+        address: {
+            street: 'Paseo de Gracia'
+            number: 1
+        },
+        children: [
+            'Irene',
+            'Clara'
+        ], // no tiene
+        simpatico: false // Pepito es antipatico
     }
+]
 ```
