@@ -8,7 +8,7 @@ document
 // the DOM
 ```
 
-![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=+)
+![](https://dummyimage.com/3000x1000/ffffff/000000.jpg&text=+)
 
 ### Accessing an Element
 
@@ -17,24 +17,28 @@ document
 - [`getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 
 ```js
+document.body
+// the page's body element
+
 let el = document.getElementById('some-id');
 // returns a Node
 
 let els = document.querySelectorAll('.any-class');
+// returns an array-like NodeList
+// cycle through them with a for loop
 for(let i=0; i<els.length; i++){
     let el = els[i];
 }
-// returns an array-like NodeList
 
-document.getElementsByTagName();
-document.getElementsByClassName()
-// return live HTMLCollections
+document.getElementsByTagName('p');
+document.getElementsByClassName('any-class');
+// both return live HTMLCollections
 ```
 
 _[Read](https://medium.com/@layne_celeste/htmlcollection-vs-nodelist-4b83e3a4fb4b) about the subtle differences between NodeLists and HTMLCollections_
 
 
-![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=+)
+![](https://dummyimage.com/3000x1000/ffffff/000000.jpg&text=+)
 
 ### Adding and Deleting Content
 
@@ -45,12 +49,13 @@ let h1 = document.createElement('h1');
 // note, this will not appear on
 
 h1.innerHTML = 'An Important Heading';
+// add text to h1
 
 el.appendChild(h1);
-// takes... but in our current example
-// h1 doesn't contain anything...
+// add the h1 element to the end of Element el,
+// right before el's closing tag
 
-el.parentNode.removeChild(el);
+el.parentNode.removeChild(h1);
 // removes element el from DOM
 ```
 
