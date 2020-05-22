@@ -72,7 +72,7 @@ _A set of key value pairs_
         first: 'Fulanito',
         last: 'Perez',
         address: {
-            street: 'Trafalgar'
+            street: 'Trafalgar',
             number: 53
         },
         children: [], // no tiene
