@@ -31,11 +31,13 @@ let els = document.querySelectorAll('.any-class');
 for(let i=0; i<els.length; i++){
     let el = els[i];
 }
-// NodeLists also support .forEach() method
+// NodeLists support .forEach() method
 
-document.getElementsByTagName('p');
-document.getElementsByClassName('any-class');
+// other methods include
+// document.getElementsByTagName('p');
+// document.getElementsByClassName('any-class');
 // both return live HTMLCollections
+// which do NOT support .forEach()
 ```
 
 _[Read](https://medium.com/@layne_celeste/htmlcollection-vs-nodelist-4b83e3a4fb4b) about the subtle differences between NodeLists and HTMLCollections_
