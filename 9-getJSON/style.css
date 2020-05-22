@@ -1,0 +1,22 @@
+/* ---------- resets ---------- */
+
+/* remove default bold from headings */
+h1, h2, h3 { font-weight: inherit }
+/* remove default left margin on figure */
+figure { margin: 0 }
+/* remove default left padding on ul */
+ul { padding: 0 }
+/* remove default underline on links */
+a { text-decoration: none }
+
+/* ---------- styles ---------- */
+html {
+    font-family: verdana;
+}
+body {
+    margin: 5vmin;
+}
+img {
+    max-width: 300px;
+    height: auto;
+}
