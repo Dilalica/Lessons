@@ -82,12 +82,12 @@ _A set of key value pairs_
         first: 'Jimena',
         last: 'Gonzalez',
         address: {
-            street: 'Paseo de la Castellana'
+            street: 'Paseo de la Castellana',
             number: 2
         },
         children: [
-            'Maria'
-            'Jorge',
+            'Maria',
+            'Jorge'
         ],
         simpatico: true
     },
@@ -95,7 +95,7 @@ _A set of key value pairs_
         first: 'Pepito',
         last: 'Suarez',
         address: {
-            street: 'Paseo de Gracia'
+            street: 'Paseo de Gracia',
             number: 1
         },
         children: [
@@ -105,4 +105,7 @@ _A set of key value pairs_
         simpatico: false // Pepito es antipatico
     }
 ]
+// assuming above is assigned to a variable arr
+// arr[2][0]
+// will access Pepito's first child
 ```
