@@ -48,41 +48,65 @@ _[Read](https://medium.com/@layne_celeste/htmlcollection-vs-nodelist-4b83e3a4fb4
 
 ### Adding and Deleting Content
 
-```js
-let h1 = document.createElement('h1');
-// creates an <h1> element Node
-// and assigns it to variable h1
-// note, this will not appear on
-
-h1.innerHTML = 'An Important Heading';
-// add text to h1
-
-el.appendChild(h1);
-// add the h1 element to the end of Element el,
-// right before el's closing tag
-
-el.parentNode.removeChild(h1);
-// removes element el from DOM
-```
-
-[`innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) is very useful. It can get or set HTML. We can do much of the above with just .innerHTML
+[`innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) is very useful. It can get or set HTML. It will parse html including styles, classes and IDs.
 
 ```js
 let content = el.innerHTML;
 // assigns a string of all the contents of el to content
 
-el.innerHTML = '<p>Hi</p>';
+el.innerHTML = '<p style="color:red">Hi</p>';
 // sets content to el
 // HTML tags are parsed and rendered in the browser
+// notice the use of double and single quotes
+// to distinguish between HTML syntax and a JS string
 
 el.innerHTML = '';
 // assigning el.innerHTML an empty string
 // deletes everything inside el
 
 el.innerHTML += 'hi';
-// gets previous content of, add 'hi'
-// and assigns the resulting content
+// gets previous content of element el, adds 'hi'
+// and assigns the resulting content to el.innerHTML
+// which reparses previous HTML content all over again
 ```
+
+- [`createElement()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+- [`append()`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append) vs [`appendChild()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+- [`prepend()`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/prepend) vs [`insertBefore()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore)
+- [`remove()`](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove) vs [`removeChild()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild)
+
+```js
+let h1 = document.createElement('h1');
+// creates an <h1> element Node
+// and assigns it to variable h1
+// note, this will not appear on
+
+h1.append('An Important Heading');
+// add text to h1
+// append() is not compatible with Internet Explorer
+// To add text in IE we would use .innerHTML
+
+el.appendChild(h1);
+// add the h1 element to the END of Element el,
+// right BEFORE el's CLOSING tag
+// appendChild() only accepts a Node
+
+el.prepend(h1);
+// add the h1 element to the BEGINNING of Element el,
+// right AFTER el's OPENING tag
+// prepend() NOT compatible with IE
+// instead use insertBefore()
+// which only accepts a Node
+
+h1.remove();
+// removes element h1 from DOM
+// remove() NOT compatible with IE
+
+h1.parentNode.removeChild(h1);
+// Internet Explorer way of removing an element
+```
+
+
 
 
 
