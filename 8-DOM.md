@@ -86,7 +86,21 @@ el.innerHTML += 'hi';
 
 
 
-![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=+++++++++++CSS+in+JS+++++++++++)
+![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=+++++++++++CSS+&+Attributes+++++++++++)
+
+```js
+el.style.fontSize = '12px';
+el.style.display = 'none';
+// set CSS values as strings to CSS properties
+// property names in JS in camelCase
+// font-size in css becomes fontSize in JS
+// this is equivalente to adding an inline style
+
+let value = window.getComputedStyle(el)['prop-name'];
+// gets an element's property's computed css value
+```
+
+In JS you may also add and remove classes and IDs that are also referenced in a CSS style.
 
 ```js
 el.classList.add('class-name');
@@ -94,17 +108,36 @@ el.classList.add('class-name');
 
 el.classList.remove('class-name');
 // Remove class
-
-el.style.fontSize = '12px';
-el.style.display = 'none';
-// set CSS values as strings to CSS properties
-// property names in JS in camelCase
-// font-size in css becomes fontSize in JS
-
-window.getComputedStyle(el)['prop-name'];
-// gets an element's property's computed css value
 ```
 
+Id's are added and removed more simply.
+
+```js
+el.id = 'id-name';
+// sets element's ID to id-name
+
+let val = el.id;
+// assigns element's ID to variable val
+```
+
+- [`setAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
+- [`getAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)
+
+```js
+el.setAttribute('data-something', 'blah');
+// creates an attribute data-something
+// and assigns it a value of blah
+
+let val = el.getAttribute('data-something-else');
+// gets the value of attribute data-something-else
+// and assigns it to the variable val
+
+// getAttribute() or setAttribute() can be used
+// with any documented or user created attribute names.
+// Many libraries will create attributes
+// that start with data- as in
+// <element data-something="something"></element>
+```
 
 
 ![](https://dummyimage.com/3000x2000/ffffff/000000.jpg&text=+++++++++++++Events+++++++++++++)

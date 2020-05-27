@@ -35,8 +35,8 @@
 1. A-Frame
 1. ML5.js
 1. VueJS
-1. React, WebPack
 1. Svelte, Rollup
+1. React, WebPack
 
 ### Mobile
 

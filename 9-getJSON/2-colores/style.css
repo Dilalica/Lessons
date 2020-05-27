@@ -1,0 +1,10 @@
+html, body {
+    background-color: black;
+}
+
+p {
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 40px;
+    margin: 0;
+}
