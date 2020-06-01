@@ -5,18 +5,17 @@
 1. HTML / CSS Syntax
 1. JS Data Types, JSON, API URLs
 1. JS Control Flow
-1. DOM (Vanilla), jQuery, Baby Query
 1. JS Functions
-1. GetJSON, APIs and the DOM
-1. User Events, click, submit, keyup, scroll, [hammer.js](https://hammerjs.github.io/)
+1. APIs, getJSON, and the DOM
+1. User Events, click, submit, keyup, scroll, [hammer.js](https://hammerjs.github.io/), [jQuery](https://api.jquery.com/)
 1. Array, String, and Object manipulation, [Lodash](https://lodash.com/)
-1. Recursion, [requestAnimationFrame()](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
+1. Recursion, [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout), [requestAnimationFrame()](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
+1. Game Design
 1. Object Oriented JS
 1. Canvas, [p5.js](https://p5js.org/)
-1. [Paper.js](http://paperjs.org/)
-1. Vectors
 1. SVG, [svg.js](https://svgjs.com/)
-1. Game Design
+1. [Paper.js](http://paperjs.org/)
+1. Vectors, More Game Design
 
 ### Server
 

@@ -1,0 +1,28 @@
+html {
+    font-family: verdana;
+    font-size: calc(3vmin + 16px);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: .5rem;
+}
+
+input {
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
+    padding: .5rem;
+}
+
+input[type=text]{
+    background-color: lightpink;
+}
+
+input[type=submit] {
+    background-color: inherit;
+    border: .1rem solid lightpink;
+    color: lightpink;
+}
+
