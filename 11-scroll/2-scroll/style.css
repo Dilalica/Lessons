@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-family: verdana;
+    font-size: 40px;
+}
+
+p {
+    display: none;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/animation */
+    animation: appear 1s;
+}
+
+main {
+    height: 900vh;
+    background-color: lightgreen;
+    z-index: 1;
+}
+
+@keyframes appear {
+    from { opacity: 0 }
+    to { opacity: 100 }
+}

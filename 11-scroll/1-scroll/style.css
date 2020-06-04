@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-family: verdana;
+    font-size: 40px;
+}
+
+p {
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+main {
+    height: 500vh;
+    background-color: lightgreen;
+    z-index: 1;
+}
