@@ -21,9 +21,16 @@ function setup(){
 
 function draw(){
     background(255);
+
+    // 3d spaces feature lightsources
+    // this light is white and in the center of x and y
+    // but slightly towards the front in z
     pointLight(255, 255, 255, 0, 0, 300);
 
     boxes.forEach(b => {
+        // the p5 push() and pop() functions allow us to
+        // rotate and resize each box without affecting
+        // the entire scene 
         push();
         translate(b.x, b.y, b.z);
         rotateX(frameCount * b.rotX);
