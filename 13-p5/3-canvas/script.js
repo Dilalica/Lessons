@@ -1,4 +1,5 @@
 
+
 // --------------- global variables -----------------
 let ctx,
     mouseX,
@@ -83,6 +84,8 @@ function drawSquare(){
     ctx.fillStyle = `hsl(${hue},100%,50%)`;
     ctx.fillRect(mouseX - (size/2), mouseY - (size/2), size, size);
 }
+
+
 
 
 // --------------------- math -----------------------
