@@ -28,7 +28,8 @@ function setup() {
 }
 
 function add(element){
-    let sliderValue = document.getElementById('slider').value;
+    let slider = document.getElementById('slider');
+    let sliderValue = slider.value;
     count++;
     console.log(sliderValue, count);
     element.innerHTML = 'Add ' + count;

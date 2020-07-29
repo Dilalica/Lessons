@@ -18,7 +18,9 @@ function setup() {
     video.size(width, height);
 
     // Create a new poseNet method with a single detection
-    poseNet = ml5.poseNet(video, modelReady);
+    poseNet = ml5.poseNet(video, () => {
+        console.log('poseNet ready');
+    });
     // This sets up an event that fills the global variable "poses"
     // with an array every time new poses are detected
     poseNet.on('pose', results => {
@@ -28,13 +30,9 @@ function setup() {
     video.hide();
 }
 
-function modelReady() {
-    console.log('model ready')
-}
-
 function draw() {
-    // background(255);
-    image(video, 0, 0, width, height);
+    background(255);
+    // image(video, 0, 0, width, height);
 
     // We can call both functions to draw all keypoints and the skeletons
     drawKeypoints();

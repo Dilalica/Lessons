@@ -11,16 +11,17 @@ let classifier;
 let label = document.createElement('p');
 let count = {
     sad: 0,
+    surprised: 0,
     happy: 0
 };
 
 function setup() {
     noCanvas();
-    let mobilenet = ml5.featureExtractor('MobileNet', function(){
+    let mobilenet = ml5.featureExtractor('MobileNet', () => {
         console.log('MobileNet ready');
     });
     let video = createCapture(VIDEO);
-    classifier = mobilenet.classification(video, function(){
+    classifier = mobilenet.classification(video, () => {
         console.log('video ready');
         document.body.appendChild(label);
     });
