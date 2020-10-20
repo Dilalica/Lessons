@@ -1,0 +1,45 @@
+
+
+
+
+
+[
+    {
+        color: 'green',
+        num: 4
+    },
+    {
+        color: 'pink',
+        num: 3
+    },
+    {
+        color: 'yellow',
+        num: 6
+    },
+    {
+        color: 'blue',
+        num: 2
+    },
+]
+
+
+
+
+
+
+const arr = ['zebra', 'lion', 'mouse'];
+
+arr.forEach(color => {
+    console.log(color);
+});
+
+
+const obj = {
+    1: 'one',
+    2: 'two',
+    3: 'three'
+};
+
+for(const key in obj){
+    console.log(key + ': ' + obj[key]);
+}

@@ -1,0 +1,10 @@
+html
+    head
+        title Messages
+        link(rel='stylesheet' href='/style.css')
+    body
+        ul
+            each item in messages
+                li= item.name + ': ' + item.message
+            li
+                a(href='/') Add Message

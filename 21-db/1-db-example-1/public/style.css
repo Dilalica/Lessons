@@ -1,0 +1,29 @@
+html {
+    font: 20px verdana;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p, form {
+    text-align: center;
+}
+
+p {
+    margin-top: 10vh;
+}
+
+input {
+    font: inherit;
+    padding: 1em;
+    margin: 1em;
+}
+
+ul li {
+    font: inherit;
+    list-style: none;
+    margin: 1em;
+}

@@ -13,42 +13,36 @@
 1. Recursion, [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout), [requestAnimationFrame()](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
 1. Canvas, [p5.js](https://p5js.org/)
 1. Object Oriented JS
-1. [ml5.js](https://ml5js.org/)
-1. SVG, [svg.js](https://svgjs.com/)
-1. [Paper.js](http://paperjs.org/)
-1. Vectors, More Game Design
+1. Vectors
 
 ### Server
 
-1. A touch of PHP
-1. [Git](https://git-scm.com/), Fortrabbit
-1. [npm](https://www.npmjs.com/), [node.js](https://nodejs.org/en/), http, res.sendFile()
-1. [express](https://expressjs.com/)
-1. res.render(), [EJS](https://ejs.co/)
-1. [fs](https://nodejs.org/api/fs.html), path, Request
-1. [Heroku](https://www.heroku.com/)
-1. [socket.io](https://socket.io/)
-1. Promises, Async Await, Fetch, [Got](https://www.npmjs.com/package/got)
+1. [npm](https://www.npmjs.com/), [node.js](https://nodejs.org/en/), http, [express](https://expressjs.com/), `res.sendFile()`, `res.render()`, [EJS](https://ejs.co/),
+1. [Heroku](https://www.heroku.com/), [Git](https://git-scm.com/), path, Request, [socket.io](https://socket.io/)
+1. Promises, Async Await, Fetch, [Got](https://www.npmjs.com/package/got), [fs](https://nodejs.org/api/fs.html)
 1. [Mongo](https://www.mongodb.com/)
-1. AWS S3
+1. Saving Pics from User AWS S3
 1. [Pug](https://pugjs.org/), [Stylus](https://stylus-lang.com/), [Babel](https://babeljs.io/)
+1. A touch of PHP, Fortrabbit
 
 ### Client Again
-
+1. SVG, [svg.js](https://svgjs.com/)
+1. [Paper.js](http://paperjs.org/)
 1. Video
-1. Saving Pics from User
 1. [THREE.js](https://threejs.org/)
+1. [ml5.js](https://ml5js.org/)
 1. [A-Frame](https://aframe.io/)
 1. [VueJS](https://vuejs.org/)
-1. [Svelte](https://svelte.dev/), [Rollup](https://rollupjs.org/)
-1. [React](https://reactjs.org/), [WebPack](https://webpack.js.org/concepts/)
 
 ### Server Again
 
-1. Cookies, LocalStorage
-1. Authentication, Sessions, bcrypt
-1. OAuth2
-1. Slack Integrations
+1. Sessions, Cookies, LocalStorage, Authentication, bcrypt
+1. OAuth2, Slack Integrations
+
+### Client Once More
+
+1. [Svelte](https://svelte.dev/), [Rollup](https://rollupjs.org/)
+1. [React](https://reactjs.org/), [WebPack](https://webpack.js.org/concepts/)
 
 ### Mobile
 

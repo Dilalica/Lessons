@@ -1,0 +1,40 @@
+html
+    head
+        title Hola mundo
+        include head
+        //- a dot following an element allows for plain text
+        style.
+            h1 {
+                color: green;
+            }
+    body
+        //- if name is undefined show input forum
+        if !name
+            form
+                input(type='text' placeholder="Type someone's name:")
+                input(type='submit' value='Go')
+        else
+            - var i=0;
+            while i<100
+                h1 hola,&nbsp;
+                    if(name=='cati')
+                        span.pink Catiiiiiiii
+                    else
+                        //- invocamos capitalize que está definido en el render
+                        span.pink!= '<em>' + capitalize(name) + '</em>'
+                - i++
+        script(src='/getjson.js')
+        script.
+            console.log('hi');
+            getJSON('/api', data => {
+                console.log(data);
+            });
+        if !name
+            script.
+                const input = document.querySelector('input[type="text"]'),
+                form = document.querySelector('form');
+                form.addEventListener('submit', event => {
+                    event.preventDefault();
+                    const name = input.value;
+                    window.location.href = '/' + name;
+                });

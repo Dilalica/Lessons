@@ -1,0 +1,14 @@
+html
+    head
+        title Hola!
+        link(rel='stylesheet' href='/style.css')
+    body
+        main
+            form
+                input#name(type='text' placeholder='Your Name')
+                input#message(type='text' placeholder='Say Something')
+                input(type='submit' value='Go')
+            p
+                a(href='/results') Results
+        script(src='/ajax.js')
+        script(src='/script.js')

@@ -1,0 +1,11 @@
+html
+    head
+        title Results
+        link(rel='stylesheet' href='/style.css')
+    body
+        ul
+            each item in data
+                li
+                    em= item.name
+                    | : 
+                    em= item.message

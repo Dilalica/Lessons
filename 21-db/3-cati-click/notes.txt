@@ -1,0 +1,58 @@
+http
+    - ¡¡¡Stateless!!!
+
+Requests initiated from client
+
+    get
+        - url
+        - http or https
+        - headers
+            - client ip address
+            - cookie
+        - receive responses
+
+    post
+        - url
+        - http or https
+        - headers
+            - client ip address
+            - cookie
+        - receive responses
+        - body
+            - html
+            - JSON
+            - txt
+            - jpg
+            - ... etc
+
+response sent from server
+
+    - http or https
+    - ip
+    - headers
+        - e.g. CORS
+        - set cookie
+    - optionally a body:
+        - html
+        - JSON
+        - txt
+        - jpg
+        - ... etc
+
+
+
+Cookie:
+    - url
+    - session_id
+    - expiration
+
+
+HTTP Request:
+    type: GET, POST, PUT, DELETE
+    url: http://google.com/
+    protocol: https, http
+    header:
+        ip of client: 383.48484.848
+        client version:
+        os language:
+        date:

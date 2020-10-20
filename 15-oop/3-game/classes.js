@@ -35,7 +35,7 @@ class Star {
     draw() {
         stroke(0);
         fill('white');
-        square(this.left, this.top, this.size);
+        circle(this.left, this.top, this.size);
     }
 }
 

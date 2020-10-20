@@ -1,0 +1,12 @@
+html
+    head
+        title Resultados
+        link(rel='stylesheet' href='/style.css')
+    body
+        each post in data
+            ul
+                - for(var i=0; i<post.num; i++){
+                    li!= color(post.color)
+                - }
+        p
+            a(href='/') Añade más colores

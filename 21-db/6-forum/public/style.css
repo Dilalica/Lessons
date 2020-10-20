@@ -1,0 +1,11 @@
+html {
+    font: 20px verdana;
+}
+
+.pink {
+    color: pink;
+}
+
+input[type="text"] {
+    font: inherit inherit;
+}

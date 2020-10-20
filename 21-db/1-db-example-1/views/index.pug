@@ -1,0 +1,14 @@
+html
+    head
+        title Send Message
+        link(rel='stylesheet' href='/style.css')
+    body
+        main
+            form
+                input#name(type='text' placeholder='Name')
+                input#message(type='text' placeholder='Say what')
+                input(type='submit' value='Send')
+            p
+                a(href='/messages') Messages
+        script(src='/ajax.js')
+        script(src='/script.js')

@@ -1,0 +1,19 @@
+{
+  "name": "node-express-mongo-",
+  "version": "1.0.0",
+  "description": "click-mongo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "db"
+  ],
+  "author": "cati",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2"
+  }
+}
